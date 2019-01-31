@@ -29,6 +29,14 @@ def smilessimilarity():
 
     return json.dumps(return_dict)
 
+@app.route("/structure/mol")
+def tomol():
+    structure_1 = request.args.get('smiles')
+
+    m1 = Chem.MolFromSmiles(structure_1)
+
+    return str(Chem.MolToMolBlock(m1))
+
 @app.route('/heartbeat', methods=['GET'])
 def testapi():
     return_obj = {}
