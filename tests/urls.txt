@@ -1,0 +1,7 @@
+# Identity
+
+http://localhost:5066/structure_similarity/smiles?structure1=OC(=O)[C@H](NC(=O)CCN1C(=O)[C@@H]2Cc3ccccc3CN2C1=O)c4ccccc4&structure2=OC(=O)[C@H](NC(=O)CCN1C(=O)[C@@H]2Cc3ccccc3CN2C1=O)c4ccccc4
+
+# Different
+
+http://localhost:5066/structure_similarity/smiles?structure1=OC(=O)[C@H](NC(=O)CCN1C(=O)[C@@H]2Cc3ccccc3CN2C1=O)c4ccccc4&structure2=COc1cc(O)c2c(=O)cc(oc2c1)c3ccccc3
